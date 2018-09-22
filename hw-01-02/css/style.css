@@ -9,18 +9,18 @@ html {
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", "Ubuntu", serif;
   color: #626262;
   font-size: 16px;
   background-color: #ffffff;
   margin: 0 auto;
 }
 
-/* img {
- display: block;
- max-width: 100%;
- height: auto;
-} */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .nav_list {
   text-align: center;
@@ -80,8 +80,9 @@ p {
 }
 
 .under_img_item {
+  font-family: "Ubuntu";
   text-transform: uppercase;
-  font-size: 12px;
+  font-weight: 300;
 }
 
 /* link */
