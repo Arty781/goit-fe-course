@@ -68,8 +68,9 @@ img {
   margin-bottom: 126px;
 }
 
+/* чистим крайние правые елементы */
 .article_list_item:nth-child(2n){
-  margin-right: 0;
+  margin-right: 0; 
 }
 
 p {
