@@ -68,6 +68,10 @@ img {
   margin-bottom: 126px;
 }
 
+.article_list_item:nth-child(2n){
+  margin-right: 0;
+}
+
 p {
   text-align: left;
   line-height: 2;
@@ -90,6 +94,9 @@ p {
 .link_load_wrapper {
   text-align: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .link_load_more {
