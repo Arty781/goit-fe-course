@@ -13,13 +13,24 @@ body {
   color: #626262;
   font-size: 16px;
   background-color: #ffffff;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .nav_list {
@@ -30,12 +41,7 @@ img {
 
 .nav_list_item {
   display: inline-block;
-  margin-right: 100px;
   list-style: none;
-}
-
-.nav_list_item:last-child {
-  margin-right: 0;
 }
 
 .link_item {
@@ -43,20 +49,24 @@ img {
   color: #626262;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 0 50px;
   margin: 0 auto;
+}
+
+.link_item:hover {
+  color: aqua;
 }
 
 /* article */
 
-.article_wrapper {
-  display: inline-block;
+/* .article_wrapper {
+  width: 900px;
   margin: 0 auto;
-}
+} */
 
 .article_item {
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
 }
 
 .article_list_item {
@@ -64,13 +74,14 @@ img {
   list-style: none;
   font-size: 14px;
   width: 420px;
-  margin-right: 60px;
+  margin-right: 50px;
   margin-bottom: 126px;
 }
 
 /* чистим крайние правые елементы */
-.article_list_item:nth-child(2n){
-  margin-right: 0; 
+
+.article_list_item:nth-child(2n) {
+  margin-right: 0;
 }
 
 p {
@@ -88,6 +99,7 @@ p {
   font-family: "Ubuntu";
   text-transform: uppercase;
   font-weight: 300;
+  color: #626262;
 }
 
 /* link */
@@ -108,4 +120,8 @@ p {
   border-width: 1px;
   padding: 20px 32px;
   color: #626262;
+}
+
+.link_load_more:hover {
+  color: aqua;
 }
