@@ -36,7 +36,8 @@ ul {
 .nav_list {
   text-align: center;
   /* список центрирован по центру */
-  padding: 76px 0 78px 0;
+  padding: 76px 0 0 0;
+  margin-bottom: 78px;
 }
 
 .nav_list_item {
