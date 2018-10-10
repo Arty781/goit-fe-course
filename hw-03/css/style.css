@@ -80,6 +80,8 @@ ul {
   margin-right: 0;
 }
 
+/* ---------------------------- */
+
 p {
   text-align: left;
   line-height: 2;
@@ -95,7 +97,7 @@ p {
   font-family: "Ubuntu";
   text-transform: uppercase;
   font-weight: 300;
-  color: #626262;
+  color: #b4ad9e;
 }
 
 /* link */
