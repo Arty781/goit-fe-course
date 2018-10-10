@@ -60,7 +60,7 @@ img {
 .logo-link {
   font-family: "Roboto";
   font-style: 30px;
-  font-weight: 500;
+  font-weight: 300;
   color: #555252;
   text-transform: uppercase;
   text-decoration: none;
@@ -68,6 +68,7 @@ img {
 
 h1:first-letter {
   font-family: "Roboto";
+  font-weight: 900;
   color: #1abc9c;
 }
 
@@ -109,10 +110,11 @@ ul {
 /* featured products */
 
 .musthead_title {
+  font-family: "Roboto";
   text-align: center;
   font-size: 48px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 900;
   margin: 0 0 92px 0;
 }
 
@@ -143,6 +145,7 @@ ul {
   font-size: 14px;
   width: 255px;
   margin: 0 20px 40px 0;
+  background-color: rgba(233, 240, 253, 1);
 }
 
 /* чистим крайние правые елементы */
@@ -152,7 +155,8 @@ ul {
 }
 
 .card_item {
-  font-family: "Open Sans";
+  font-family: "Roboto";
+  font-size: 18px;
   float: left;
   width: 75%;
   background-color: #323232;
@@ -164,7 +168,8 @@ ul {
 }
 
 .card_price {
-  font-family: "Open Sans";
+  font-family: "Roboto";
+  font-size: 18px;
   float: left;
   width: 25%;
   padding: 13px 11px;
@@ -185,11 +190,13 @@ ul {
 /* latest news */
 
 .musthead_title_news {
+  font-family: "Roboto";
   text-align: center;
   font-size: 48px;
   text-transform: uppercase;
   font-weight: 900;
   margin: 0 0 80px 0;
+  color: #555252;
 }
 
 .musthead_title_news::after {
@@ -227,6 +234,7 @@ ul {
 }
 
 .subtitle_img {
+  font-family: "Open Sans";
   font-size: 18px;
   font-weight: 600;
   margin: 0;
@@ -242,6 +250,7 @@ ul {
 }
 
 .description {
+  font-family: "Open Sans";
   font-size: 14px;
   margin: 0 0 14px 0;
   padding: 0;
@@ -250,6 +259,7 @@ ul {
 /* links */
 
 .news_link {
+  font-family: "Open Sans";
   list-style: none;
   margin: 0;
   display: inline-block;
