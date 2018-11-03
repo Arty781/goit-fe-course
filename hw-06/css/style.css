@@ -1,0 +1,36 @@
+html {
+    font-family: 'Montserrat', 'Kaushan Script', 'Roboto', sans-serif;
+}
+
+.main_wrapper {
+    width: 1200px;
+    margin: 0   auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_item {
+    text-decoration: none;
+}
+
+.must_nav {
+    width: 490px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 126px;
+}
+
+.nav_item_list {
+    text-decoration: none;
+}
+
+.nav_item_list:hover {
+    color: #f38181;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #f38181;
+}
