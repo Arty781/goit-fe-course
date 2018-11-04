@@ -1,0 +1,251 @@
+html {
+  font-family: "Montserrat", "Italianno", "Seaweed Script", "Roboto Slab",
+    sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.main_wrapper {
+  width: 140rem;
+  margin: 0 auto;
+}
+
+/* -------------LOGO-------------- */
+
+.head_wrapper {
+  display: flex;
+  width: 94rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 10rem auto;
+}
+
+.logo_item {
+  text-decoration: none;
+  font-family: "Seaweed Script", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #fed136;
+}
+
+/* ---------------NAV----------------- */
+
+.must_nav {
+  width: 49rem;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.nav_item_list {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.nav_item_list:hover {
+  color: #fed136;
+}
+
+/* ----------SERVICES--------------- */
+
+.services_wrapper {
+  width: 94rem;
+  margin: 0 auto 10rem auto;
+}
+
+/* -----------SERVICES TITLE-------------- */
+
+.wrapper_title_services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services_title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.descr_services_title {
+  font-family: "Italianno", sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #777777;
+  margin-bottom: 3.8rem;
+}
+
+/* -----------SERVICES CONTENT------------- */
+
+.services_list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.services_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 29rem;
+}
+
+.services_item_img {
+  margin-bottom: 1.2rem;
+}
+
+.services_item_descr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_services {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0 0 1.2rem 0;
+}
+
+.subtitle_services {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #999999;
+}
+
+/* -----------FOOTER----------- */
+
+.main_footer_form {
+  width: 1400px;
+  height: 676px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/img4.png);
+  margin: 0 auto;
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rights_item {
+  font-family: "Montserrat", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.4rem;
+  padding: 10rem 0 1rem 0;
+  color: #ffffff;
+}
+
+.red_rights_item {
+  font-family: "Italianno", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-bottom: 7.4rem;
+  
+  color: #777777;
+}
+
+.form_item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 940px;
+  height: 265px;
+}
+
+.inform_input {
+  display: flex;
+  width: 45.5rem;
+  flex-direction: column;
+}
+.name_item {
+  width: 45.5rem;
+  height: 5rem;
+  border: 0.1rem solid #e7e7e7;
+  padding-left: 1rem;
+  margin-bottom: 2.6rem;
+}
+
+.email_item {
+  width: 45.5rem;
+  height: 5rem;
+  border: 0.1rem solid #e7e7e7;
+  padding-left: 1rem;
+  margin-bottom: 2.6rem;
+}
+
+.subject_item {
+  width: 45.5rem;
+  height: 5rem;
+  border: 0.1rem solid #e7e7e7;
+  padding-left: 1rem;
+}
+
+.message_item {
+  display: flex;
+  width: 45.5rem;
+  height: 20rem;
+  border: 0.1rem solid #e7e7e7;
+  padding-left: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.subscribe_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 15rem;
+  height: 4rem;
+  background-color: #fed136;
+  border-radius: 2px;
+  border: 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.subscribe_button:hover {
+  border: 0.1rem solid #40429bb6;
+}
