@@ -1,0 +1,33 @@
+@media screen and (min-width: 748px) {
+  .wrapper {
+    display: flex;
+    width: 748px;
+    justify-content: center;
+    position: relative;
+  }
+
+  /* .wrapper:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); */
+  }
+
+  .header {
+    display: flex;
+    /* width: 660px; */
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .content__title {
+      width: 350px;
+      font-size: 52px;
+  }
+}

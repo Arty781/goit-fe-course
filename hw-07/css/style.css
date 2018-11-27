@@ -23,7 +23,7 @@ img {
 }
 
 .main_wrapper {
-  width: 140rem;
+  width: 120rem;
   margin: 0 auto;
 }
 
@@ -148,8 +148,8 @@ img {
 /* -----------FOOTER----------- */
 
 .main_footer_form {
-  width: 1400px;
-  height: 676px;
+  width: 120rem;
+  height: 67.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,72 +178,74 @@ img {
   font-weight: 400;
   font-size: 1.2rem;
   padding-bottom: 7.4rem;
-  
+
   color: #777777;
 }
 
+/* ----------------FORM--------------------- */
+
 .form_item {
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
+  width: 94rem;
+  height: 21rem;
   flex-wrap: wrap;
-  width: 940px;
-  height: 265px;
+  margin-bottom: 2.8rem;
 }
 
 .inform_input {
   display: flex;
-  width: 45.5rem;
+  width: 47%;
   flex-direction: column;
+  justify-content: space-around;
 }
-.name_item {
-  width: 45.5rem;
-  height: 5rem;
+
+.input_item {
+  width: 100%;
   border: 0.1rem solid #e7e7e7;
-  padding-left: 1rem;
+  padding: 1.5rem;
   margin-bottom: 2.6rem;
 }
 
-.email_item {
-  width: 45.5rem;
-  height: 5rem;
-  border: 0.1rem solid #e7e7e7;
-  padding-left: 1rem;
-  margin-bottom: 2.6rem;
+.item_form:valid {
+  outline: 2px solid green;
 }
 
-.subject_item {
-  width: 45.5rem;
-  height: 5rem;
-  border: 0.1rem solid #e7e7e7;
-  padding-left: 1rem;
+.item_form:invalid {
+  outline: 2px solid red;
+}
+
+.feedback {
+  width: 47%;
+  height: 100%;
 }
 
 .message_item {
   display: flex;
-  width: 45.5rem;
-  height: 20rem;
+  width: 100%;
+  height: 90%;
   border: 0.1rem solid #e7e7e7;
-  padding-left: 1rem;
+  padding: 0 1rem 1rem 1rem 1rem;
   margin-bottom: 2.4rem;
 }
 
+.subscribe1 {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .subscribe_button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-family: "Montserrat", serif;
   font-weight: 700;
   font-size: 1.2rem;
   color: #ffffff;
   text-transform: uppercase;
-  width: 15rem;
-  height: 4rem;
   background-color: #fed136;
   border-radius: 2px;
   border: 0;
-  margin: 0 auto;
-  padding: 0;
+  padding: 1rem 2.5rem;
 }
 
 .subscribe_button:hover {

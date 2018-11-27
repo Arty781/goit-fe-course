@@ -52,14 +52,14 @@ img {
 .logo {
   display: inline-block;
   vertical-align: middle;
-  font-style: 30px;
+  font-size: 30px;
   margin: 0;
   padding-top: 34px;
 }
 
 .logo-link {
   font-family: "Roboto";
-  font-style: 30px;
+  font-size: 30px;
   font-weight: 300;
   color: #555252;
   text-transform: uppercase;
