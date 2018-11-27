@@ -2,7 +2,6 @@
 @import "./tablet.css";
 @import "./desktop.css";
 @import "./normalise.css";
-@import "./bootstrap-grid.css";
 
 html {
   font-family: "Montserrat", "Roboto", sans-serif;
@@ -10,11 +9,11 @@ html {
   box-sizing: border-box;
 }
 
-/* *,
+*,
 *::after,
 *::before {
   box-sizing: inherit;
-} */
+}
 
 body {
   margin: 0;
@@ -27,26 +26,13 @@ img {
   height: auto;
 }
 
-/* ----------BACKGROUND----------- */
-
- .row__bg {
-   width: 100%;
-    background-image: url(../img/img_bg.png);
-    background-color: rgba(0, 0, 0, 0.7);
-    background-size: cover;
-  }
-
 /* ----------HEADER----------- */
 
-.nav__list {
-  display: flex;
-  text-decoration: none;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.header__logo {
-  text-decoration: none;
+.wrapper__backgraund {
+  background-image: url(../img/img_bg.png);
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 6.7rem;
+  background-size: cover;
 }
 
 .logo__item {
@@ -56,6 +42,15 @@ img {
   font-size: 2.4rem;
   font-weight: 700;
   color: #ffffff;
+}
+
+.nav__list {
+  width: 55%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
 }
 
 .nav__list--link {
@@ -126,6 +121,7 @@ img {
 
 .list__item {
   display: flex;
+  width: 22rem;
   flex-direction: column;
   align-items: center;
   text-align: center;
